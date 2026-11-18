@@ -27,6 +27,17 @@ See coffeeDecorator.py for example solution
 
 Media Player Adapter:
 
+The Tutorialspoint example is a good illustration of the Adapter Pattern because it demonstrates how an existing class can work with a new interface without changing the existing class.  It supports backward (or "forward") compatibility.
+
+The example is here:  https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
+
+The scenario is:
+- An AudioPlayer can already play MP3 files.
+- We want it to also play VLC and MP4 files.
+- Separate advanced players know how to handle VLC and MP4 files.
+- A MediaAdapter allows the existing AudioPlayer to communicate with those advanced players.
+The important idea is that we don't modify the original audio player to understand every new format. Instead, we introduce an adapter that translates the requests.
+
 <img width="969" height="632" alt="image" src="https://github.com/user-attachments/assets/17e24ba2-5398-438a-ab05-5c9eac1c460a" />
 
 
