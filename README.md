@@ -21,3 +21,12 @@ How It Works:  Instead of creating a separate class for every possible drink com
 • Wrapper Layers: Each add-on (milk, sugar, caramel) is a decorator class that wraps around the drink object.
 • Delegation: When you ask the final wrapped object for its total cost or description, each layer calculates its own addition and passes the request down to the layer inside it.
 
+See coffeeDecorator.py for example solution 
+
+-------------------------
+
+Media Player Adapter:
+
+<img width="969" height="632" alt="image" src="https://github.com/user-attachments/assets/17e24ba2-5398-438a-ab05-5c9eac1c460a" />
+
+
