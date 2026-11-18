@@ -40,4 +40,8 @@ The important idea is that we don't modify the original audio player to understa
 
 <img width="969" height="632" alt="image" src="https://github.com/user-attachments/assets/17e24ba2-5398-438a-ab05-5c9eac1c460a" />
 
+The UML:
+<img width="560" height="387" alt="image" src="https://github.com/user-attachments/assets/63316d20-b8f8-4dd4-be74-737c14913176" />
+
+
 
